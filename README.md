@@ -1,5 +1,4 @@
 # automation-factory
-package_sorter
 # Package Sorter
 
 Robotic arm dispatch logic for Smarter Technology's automation factory. Given a package's dimensions and mass, `sort()` returns the name of the stack it should be routed to.
