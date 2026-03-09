@@ -6,6 +6,8 @@ Sorts packages into STANDARD, SPECIAL, or REJECTED stacks based on
 volume, dimensions, and mass.
 """
 
+import unittest
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -78,12 +80,6 @@ def _is_finite(value: float) -> bool:
     """Return True if *value* is a real, finite number (not NaN or ±inf)."""
     import math
     return math.isfinite(value)
-
-
-# ---------------------------------------------------------------------------
-# Tests
-# ---------------------------------------------------------------------------
-import unittest
 
 # ---------------------------------------------------------------------------
 # Tests
